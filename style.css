@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 40px 0 40px 0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Arial';
+}
+
+.paragrafo-cabecalho{
+    font-size: 20px;
+    font-style: italic;
+}
+
+nav, ul{
+    display: flex;
+}
+
+li{
+    font-size: 18px;
+    margin-left: 25px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+hr{
+    margin-top: 7px;
+    padding: 3px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.titulo-principal{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 190px;
+    text-transform: uppercase;
+}
+
+.subtitulo{
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.sessao1{
+    max-width:47%;
+}
+
+.subtitulo-sessao1{
+    font-size: 50px;
+    font-style: italic;
+    margin: 0px 0 30px 0;
+}
+
+.paragrafo1-sessao1{
+    text-align: justify;
+    font-size: 24px;
+}
+
+.paragrafo2-sessao1{
+    text-align: justify;
+    font-size: 24px;
+}
+
+.titulo3-sessao1{
+    font-size: 35px;
+    margin: 30px 0 30px 0;
+}
+
+.conteudo-principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo3-sessao2{
+    font-size: 35px;
+    margin: 30px 0 30px 0;
+}
+
+.section2{
+    max-width: 47%;
+}
+
+.flex-section2{
+    display: flex;
+    padding-top: 60px;
+}
+
+img{
+    width: 505px;
+}
+
+.paragrafo1-section2{
+    font-size: 24px;
+    max-width: 60%;
+    margin: auto 25px auto 0px;
+    text-align: justify;
+}
+
+.paragrafo2-section2{
+    font-size: 24px;
+    text-align: justify;
+    max-width: 40%;
+}
+
